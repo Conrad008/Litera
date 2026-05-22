@@ -10,16 +10,24 @@
 <body>
     <header>
         <h1 class="text-5xl ">Sign up today</h1>
-
-    </header>
+    </header> 
+    <br>
     <form action="/submit-data" method="post" class="form">
         <fieldset class="border-none">
           <legend>
-            <strong><h2 class="font-sans text-xl leading-tight">Log in to your account</h2></strong>
+            <strong><h2 class="font-sans text-xl leading-tight">create an account</h2></strong>
           </legend> <br>
           <p>Already have an account? log in <a href="login.html" class="font-sans text-lg leading-tight">here</a></p>
           <br>
-
-    
+          <div class="input">
+            <label for="name" class="label">first name:</label> <br />
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Enter Your first name"
+              required />
+          </div>
+          
 </body>
 </html>
