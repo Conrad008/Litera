@@ -42,4 +42,30 @@ body {
     box-shadow: 0 8px 32px rgba(0,0,0,0.35);
     color:white;
 }
+
+.input {
+    display:flex;
+    flex-direction:column;
+    margin-bottom:25px;
+}
+
+.label {
+    margin-bottom:10px;
+    font-size:0.95rem;
+    letter-spacing:1px;
+}
+
+.input input {
+    border: none;
+    outline: rgb(218, 215, 215);
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.04);
+    border:1px solid rgba(255,255,255,0.04);
+    color:white;
+    transition:all 0.3s ease;
+
+}
+    
+
+
    
