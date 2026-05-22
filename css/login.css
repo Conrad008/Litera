@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content:top;
+    padding: 40px;
+    align-items:center;
+    overflow:hidden;
+    position:relative;
+    font-family: sans-serif;
+    background-color: #9e3417;;
+    color: white;
+    background-size:400% 400%;
+    margin-top: 0;
+
+}
