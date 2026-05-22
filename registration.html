@@ -8,52 +8,48 @@
     <link rel="stylesheet" href="css/registration.css">
 </head>
 <body>
-    <header>
+    <header class="header">
         <h1 class="text-5xl ">Sign up today</h1>
     </header> 
     <br>
-    <form action="/submit-data" method="post" class="form">
-        <fieldset class="border-none">
-          <legend>
-            <strong><h2 class="font-sans text-xl leading-tight">create an account</h2></strong>
-          </legend> <br>
-          <p>Already have an account? log in <a href="login.html" class="font-sans text-lg leading-tight">here</a></p>
-          <br>
-          <div class="input">
-            <label for="name" class="label">first name:</label> <br />
-            <input
-              type="text"
-              id="name"
-              name="name"
-              placeholder="Enter Your first name"
-              required />
-          </div>
-          <div class="input">
-            <label for="name" class="label">last name:</label> <br />
-            <input
-              type="text"
-              id="name"
-              name="name"
-              placeholder="Enter Your last name"/>
-          </div>
-          <div class="input">
-            <label for="name" class="label"> phone number:</label> <br />
-            <input
-              type="text"
-              id="phone"
-              name="phone"
-              placeholder="Enter Your phone number"/>
-          </div>
-          <label for="email" class="label">Email:</label> <br />
-            <input
-              type="email"
-              id="email"
-              name="email"
-              placeholder="Enter Your Email"
-              required
-            />
-          </div>
-          <a href=""><button type="submit">sign in</button></a>
-          
+    <main class="glassmorphism">
+        <form action="index.html" method="get">
+            <fieldset>
+                <legend>
+                    <strong><h2 class="font-sans text-xl leading-tight">create an account</h2></strong>
+                </legend> <br>
+                <p>Already have an account? log in <a href="login.html" class="font-sans text-lg leading-tight">here</a></p>
+                <br>
+                <div class="input">
+                     <label for="name" class="label">first name:</label> <br />
+                     <input
+                      type="text"
+                     id="name"
+                     name="name"
+                     placeholder="Enter Your first name"
+                     required />
+                 </div>
+                <div class="input">
+                    <label for="name" class="label">last name:</label> <br />
+                     <input
+                      type="text"
+                     id="name"
+                     name="name"
+                     placeholder="Enter Your last name"/>
+                </div>
+                
+                 <div>
+                     <label for="email" class="label">Email:</label> <br />
+                      <input
+                       type="email"
+                       id="email"
+                       name="email"
+                       placeholder="Enter Your Email"
+                     required />
+                 </div>
+                 <input type="submit" value="sign up " class="button">
+            </fieldset>
+        </form>  
+    </main>
 </body>
 </html>
