@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box ;
+}
+
+:root {
+    --brown-bg: #9e3417;
+    --white-txt: #fff;
+    --txt-dim: #5e1f0e;
+    --txt-hover: #a82d0bdc; 
+}
+
+body {
+  background-color: var(--brown-bg);
+  color: var(--white-txt);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+.navbar {
+    background-color: var(--white-txt);
+    color: var(--brown-bg);
+    border-bottom: 1px solid var(--brown-bg);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 1.25rem 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 1.25rem;
+    direction: rtl;
+    font-size: 1.25rem; 
+    color: var(--txt-dim);
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar li:hover {
+    color: var(--txt-hover);
+}
+
+.menu-toggle {
+    display: none;
+}
+.hamburger {
+    display: none;
+}
+
+.nav-brand a {
+    font-size: 1.5rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+    white-space: nowrap;
+}
+
+.nav-search {
+    flex: 1;
+    max-width: 450px;
+    display: flex;
+    position: relative;
+}
+
+.nav-search input {
+    width: 100%;
+    padding: 0.65rem 1rem;
+    border: 1px solid var(--brown-bg);
+    color: var(var(--brown-bg));
+    border-radius: 20px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.nav-search input:focus {
+    border-color: var(--brown-bg);
+}
+
+.nav-search button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    background: none;
+    border: none;
+    color: var(--txt-dim);
+    padding: 0 1.2rem;
+    cursor: pointer;
+}
+
+.nav-search button:hover {
+    color: var(--txt-dim);
+}
+
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 1.75rem;
+}
+
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 1.75rem;
+}
+
+.action-icon {
+    font-size: 1.25rem;
+    color: var(--txt-dim);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.action-icon:hover {
+    color: var(--txt-hover);
+}
+
+.action-label {
+    display: none; 
+}
+
+.cart-icon {
+    position: relative;
+}
+
+.cart-badge {
+    position: relative;
+    display: inline-block;
+}
+
+.cart-count {
+    position: absolute;
+    top: -8px;
+    right: -10px;
+    background-color: var(--brown-bg);
+    color: var(--white-txt);
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 2px 6px;
+    border-radius: 10px;
+    line-height: 1;
+}
+
+
+
+
+
+

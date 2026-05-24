@@ -9,31 +9,35 @@
     <link rel="stylesheet" href="css/home.css">
 </head>
 <body>
-    <header>
-        <nav class="navbar"> 
-             <i class="fa-solid fa-book"></i><h1 class="text-bold text-3xl">litera</h1>
+    <header class="header">
+        <i class="fa-solid fa-book"></i><h1 class="text-bold text-3xl">litera</h1>
+        <nav class="navbar">
+            <input type="checkbox" id="menu-toggle" class="menu-toggle"> 
+            <label for="menu-toggle" class="hamburger">
+                <span class="hamburger-line"></span>
+            </label>
             <ul>
                <li><a href="registration.html"><i class="fa-solid fa-door-closed"></i>get started</a></li>
                <li><a href="contact.html"><i class="fa-solid fa-phone"></i>contact us</a></li>
                <li><a href="about.html"><i class="fa-solid fa-question"></i>About us</a></li>
             </ul>
             <div class="nav-search">
-                <input type="text" placeholder="Search products, brands, categories...">
+                <input type="text" placeholder="Search books,genres, ...">
                 <button type="submit" aria-label="Search"><i class="fa-solid fa-magnifying-glass"></i></button>
             </div>
             <div class="nav-actions">
-                 <a href="#" class="action-icon" aria-label="Account">
+                 <a href="#" class="action-icon" aria-label="Profile">
                         <i class="fa-regular fa-user"></i>
                         <span class="action-label">Profile</span>
                     </a>
-                    <a href="#" class="action-icon" aria-label="Favorites">
+                    <a href="#" class="action-icon" aria-label="Wishlist">
                         <i class="fa-regular fa-heart"></i>
                         <span class="action-label">Wishlist</span>
                     </a>
                     <a href="#" class="action-icon cart-icon" aria-label="Cart">
-                        <div class="cart-badge-container">
+                        <div class="cart-badge">
                             <i class="fa-solid fa-cart-plus"></i>
-                            <span class="cart-count">3</span>
+                            <span class="cart-count">5</span>
                         </div>
                         <span class="action-label">Cart</span>
                     </a>
