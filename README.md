@@ -85,9 +85,14 @@ litera/
 │   ├───images
 │   
 └───css
+    ├───about.css
+    ├───login.css
+    ├──landing.css
+    ├──login.css
+    ├──registration.css
+    
 ├── index.html       # Main landing page
-├── abou.html        # company history, vision, goals
-└── contact.html     # Inquiry and lead generation page
+├── about.html       # company history, vision, goals
 └── login.html       # login form page
 
 ```
@@ -97,6 +102,7 @@ litera/
 * **Backend Integration:** Implementing a Django-based management system for dynamic book showcases
 * **adding a dark mode feature** to bete equip the UI for all
 * **improved catalogue** to enable more access to a variety of customers
+* **contact section** to enable feedback from customers.
 
 ## License
 
