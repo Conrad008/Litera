@@ -363,7 +363,7 @@ body {
 }
 
 .footer-col h3 span { 
-    color: var(--amber-gold); 
+    color: var(--white-txt); 
 }
 
 .footer-col h4 {
@@ -373,3 +373,60 @@ body {
     letter-spacing: 0.5px;
 }
 
+@media (max-width: 768px) {
+    .hamburger {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        position: relative;
+    }
+
+    .hamburger-line {
+        display: block;
+        width: 30px;
+        height: 3px;
+        background-color: var(--brown-bg);
+        position: relative;
+        transition: 0.3s ease;
+    }
+
+    .hamburger-line::before,
+    .hamburger-line::after {
+        content: "";
+        display: block;
+        width: 30px;
+        height: 3px;
+        background-color: var(--brown-bg);
+        position: absolute;
+        left: 0;
+        transition: transform 0.3s ease;
+    }
+
+    .hamburger-line::before {
+        top: -8px;
+
+    }
+    .hamburger-line::after {
+        top: 8px;
+    }
+    .navbar ul {
+        display: none;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 100%;
+        background-color: var(--white-txt);
+        color: var(--brown-bg);
+        flex-direction: column;
+        padding: 20px;
+    }
+    .menu-toggle:checked~ .navbar ul {
+        display: flex;
+    }
+    
+
+
+}
